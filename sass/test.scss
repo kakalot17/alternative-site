@@ -26,11 +26,6 @@
 }
 
 // Component imports
-@import "components/retro-avatar";
-@import "components/retro-text";
-@import "components/arrow-note";
-@import "components/responsive";
-@import "components/theme-toggle";
 
 // Dark palette — default theme and explicit dark mode.
 // All monochrome tokens derive from a single OKLCH input (--mono) injected by
@@ -379,26 +374,6 @@ hr {
 
 /* Daudix Components - Imported directly */
 /* These map to the downloaded files */
-@import "home/masonry";
-@import "components/fancy-list";
-@import "home/games";
-@import "home/badges";
-@import "home/age";
-@import "home/clock";
-@import "home/window";
-@import "home/polaroid";
-@import "home/online";
-@import "home/online-indicator";
-@import "home/player";
-@import "home/snug-nook";
-
-/* New Daudix Components */
-@import "components/icon-grid";
-@import "components/media-grid";
-@import "components/nanolog";
-@import "components/rainbow";
-@import "components/changelog";
-@import "components/discord-server";
 
 /* Note: Page-specific styles (swag, design, nanolog) are in their respective folders in sass/ */
 /* Import them here if you want them globally applied, but beware of global selectors. */
